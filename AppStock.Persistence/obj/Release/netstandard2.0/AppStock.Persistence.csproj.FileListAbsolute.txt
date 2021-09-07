@@ -1,0 +1,12 @@
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\bin\Release\netstandard2.0\AppStock.Persistence.deps.json
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\bin\Release\netstandard2.0\AppStock.Persistence.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\bin\Release\netstandard2.0\AppStock.Persistence.pdb
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\bin\Release\netstandard2.0\AppStock.core.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\bin\Release\netstandard2.0\AppStock.core.pdb
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.csprojAssemblyReference.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.AssemblyInfoInputs.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.AssemblyInfo.cs
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.csproj.CoreCompileInputs.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.csproj.CopyComplete
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Persistence\obj\Release\netstandard2.0\AppStock.Persistence.pdb

@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using AppStock.core.Common;
+
+namespace APPSTOCK.Core.Models
+{
+    public class RoleFormMapModel : BaseModel
+    {
+        //public int? RoleID { get; set; }
+        public int? RoleFormMapId { get; set; }
+        public int? RoleId { get; set; }
+        public int? FormId { get; set; }
+        public string RoleName { get; set; }
+        public string FormName { get; set; }
+
+    }
+}

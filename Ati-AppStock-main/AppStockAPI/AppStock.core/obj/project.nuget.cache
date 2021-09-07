@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "teyzhwxiF6mzYAOQXVQsg8w0bm80zke9VMWarZ3E8UFTNylywNCa0Q/Z4JwzLKkoeu0n0d+lyJDwcLwiL9OyGg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ajit\\Desktop\\Ati-AppStock-main\\Ati-AppStock-main\\AppStockAPI\\AppStock.core\\AppStock.core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ajit\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Ajit\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Ajit\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Ajit\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

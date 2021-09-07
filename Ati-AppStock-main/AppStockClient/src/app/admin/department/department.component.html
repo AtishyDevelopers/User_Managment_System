@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="mt-5">
+            <h4 class="header-title mb-3">{{DepartmentName}}</h4>
+
+            <form [formGroup]="departmentGroupForm" (ngSubmit)="save()">
+                <div class="form-group row">
+                    <div class="col-md-6">
+                        <label for="exampleInputEmail1">Department Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Please Enter Department Name..." formControlName="departmentName">
+                    </div>                    
+                    <div class="col-md-6">
+                        <label>&nbsp;</label>
+                        <div class="form-inline">
+                             <!--<button type="submit" class="btn btn-primary" (click)="save()">{{departmentButtonMessage}}</button>--> 
+
+                             <button type="submit" class="btn btn-info" (click)="save()">{{saveUpdate}}</button>
+                           <!--<button type="button" class="btn btn-danger ml-2"  (click)='resetForm()'>Cancel</button>-->
+                        </div>                                                
+                    </div>
+                </div>                           
+                <!-- <button type="button" class="btn btn-danger ml-2">Cancel</button> -->
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-12">
+    <div class="mt-5 mt-lg-0">
+        <h5 class="font-14">Department List</h5>        
+
+        <div class="table-responsive">
+            <table class="table table-striped m-0">
+                <thead>
+                    <tr>
+                        <th>S.No.</th>
+                        
+                        <th>Department Name</th>                        
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>                    
+                    <tr *ngFor="let list of getDepartmenList;let i = index;">
+                        <th scope="row">{{i+1}}</th>
+                      
+                        <td>{{list.departmentName}}</td>                         
+                        <button type="button" class="btn btn-primary" (click)="editbyid(list.departmentID)">Edit</button>
+                       <button type="button" class="btn btn-danger ml-2" (click)="deletedbyid(list.departmentID)">Remove</button>
+                    </tr>
+                </tbody>               
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

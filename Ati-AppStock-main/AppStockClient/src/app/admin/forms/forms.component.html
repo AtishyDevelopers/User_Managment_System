@@ -1,0 +1,91 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="mt-5">
+            <h4 class="header-title mb-3">{{formMasterName}}</h4>
+            <form [formGroup]="userForm">
+                <div class="form-group row">
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Order By ID</label>
+                        <input type="number" class="form-control" id="orderBy" placeholder="add Form Order By" formControlName="OrderBy">
+                    </div>    
+                    
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Module ID</label>
+                        <input type="number" class="form-control" id="moduleid"  placeholder="Module Id" formControlName="moduleID">
+                    </div> 
+
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Menu ID</label>
+                        <input type="number" class="form-control" id="menuid" placeholder="Menu ID" formControlName="menuID">
+                    </div> 
+                </div>
+                <div class="form-group row"> 
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Forms Name</label>
+                        <input type="text" class="form-control" id="addForm" placeholder="add Forms name" formControlName="formName">
+                    </div> 
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Forms Name Descripation</label>
+                        <input type="text" class="form-control"  id="formDescripation" placeholder="add Forms Descripation" formControlName="formDescription">
+                    </div>                     
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Forms Path Name</label>
+                        <input type="text" class="form-control" id="formPath" placeholder="Forms Path Name" formControlName="formPath">
+                    </div> 
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Forms Icon</label>
+                        <input type="text" class="form-control" id="formIcon"  placeholder="Forms Icon name" formControlName="formIcon">
+                    </div> 
+
+                    <div class="col-md-6">
+                        <label>&nbsp;</label>
+                        <div class="form-inline">
+                            <button type="submit" class="btn btn-primary" (click)="formDataSave()">{{formButtonMessage}}</button>
+                            <button type="button" class="btn btn-danger ml-2"  (click)='resetForm()'>Cancel</button>
+                        </div>                                                
+                    </div>
+                </div>                                
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="col-lg-12">
+    <div class="mt-5 mt-lg-0">
+        <h5 class="font-14">Forms List Data</h5>   
+        <div class="table-responsive">
+            <table class="table table-striped m-0">
+                <thead>
+                    <tr>
+                        <th>Sno.</th>
+                        <th>Form ID</th>
+                        <th>Forms Name</th>       
+                        <th>Form Descripation</th>     
+                        <th>Menu Id</th> 
+                        <th>Module Id</th>     
+                        <th>Form Path</th>      
+                        <th colspan="2">Actions</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let list of formList;let i=index">
+                        <td scope="row">{{i+1}}</td>
+                        <td>{{list.formID}}</td>
+                        <td>{{list.formName}}</td>
+                        <td>{{list.formDescription}}</td>
+                        <td>{{list.menuID}}</td>
+                        <td>{{list.moduleID}}</td>
+                        <td>{{list.formPath}}</td>
+                        <td><button type="button" class="btn btn-primary ml-2"(click)="editbyid(list.formID)">Edit</button></td>
+                        <td><button type="button" class="btn btn-danger ml-2"(click)="deletedbyid(list.formID)">Remove</button></td>
+                    </tr>
+                </tbody>              
+            </table>
+        </div>
+    </div>
+</div>
+
+
+

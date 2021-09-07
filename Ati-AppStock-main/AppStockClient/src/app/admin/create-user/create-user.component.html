@@ -1,0 +1,121 @@
+<div class="row">
+    <div class="col-lg-12">
+        <div class="mt-5">
+            <h4 class="header-title mb-3">{{UserName}}</h4>
+
+            <form [formGroup]="createForm">
+                <div class="form-group row">
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">First Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="" formControlName="firstName">
+                    </div>  
+                    
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="" formControlName="lastName">
+                    </div> 
+
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">User Name</label>
+                        <input type="text" class="form-control" id="username" placeholder="" formControlName="userName">
+                    </div> 
+                    </div>
+                    <div class="form-group row">
+
+                        <div class="col-md-4">
+                            <label for="exampleInputEmail1">Password</label>
+                            <input type="text" class="form-control" id="passname" placeholder="" formControlName="password">
+                        </div> 
+
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">DoB</label>
+                        <input type="date" class="form-control" id="dob" placeholder="" formControlName="doB">
+                    </div> 
+
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">DoJ</label>
+                        <input type="date" class="form-control" id="doj" placeholder="" formControlName="doJ">
+                    </div>
+                </div>
+                <div class="form-group row">
+
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Gender</label>
+                        <select class="form-control" placeholder=""  formControlName="gender">
+                            <option>Select</option>
+                            <option>Male</option> 
+                            <option>Female</option>                           
+                        </select>
+                    </div> 
+
+                    <div class="col-md-4">
+                        <label for="exampleInputEmail1">Address</label>
+                        <input type="text" class="form-control" id="addres" placeholder="" formControlName="address">
+                    </div>
+
+                  <!--  <div class="col-md-4">
+                        <label for="exampleInputEmail1">Role</label>
+                        <select class="form-control" placeholder="" formControlName="gender">
+                            <option>Select</option>
+                            <option>1</option> 
+                        </select>
+                    </div> -->
+
+                    <div class="col-md-4">
+                        <label>&nbsp;</label>
+                        <div class="form-inline">
+                            <!--<button type="submit" class="btn btn-primary">{{roleButtonMessage}}</button>-->
+                            <button type="submit" class="btn btn-info" (click)="save()">{{saveUpdate}}</button>
+                            <!--<button type="button" class="btn btn-danger ml-2" *ngIf='roleID > 0' (click)='resetForm()'>Cancel</button>-->
+                        </div>                                                
+                    </div>
+                </div>                                
+                <!-- <button type="button" class="btn btn-danger ml-2">Cancel</button> -->
+            </form>
+        </div>
+    </div>
+</div>
+
+ <div class="col-lg-12">
+    <div class="mt-5 mt-lg-0">
+        <h5 class="font-14">User List</h5>        
+
+        <div class="table-responsive">
+            <table class="table table-striped m-0">
+                <thead>
+                    <tr>
+                        <th>Sno.</th>
+                        <th>User Name</th>    
+                        <th>First Name</th>  
+                        <th>Last Name</th>    
+                        <th>Password</th> 
+                        <th>Address</th>
+                        <th>DoB</th>
+                        <th>DoJ</th>
+                        <th>Gender</th>
+                        <th>Actions</th>                         
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let user of getUserList;let i = index;">
+                        <th scope="row">{{i+1}}</th>
+                        <td>{{user.userName}}</td>   
+                        <td>{{user.firstName}}</td>   
+                        <td>{{user.lastName}}</td>    
+                        <td>{{user.password}}</td> 
+                        <td>{{user.address}}</td>
+                        <td> {{user.doB}} </td>
+                        <td> {{user.doJ}} </td>
+                        <td> {{user.gender}} </td>
+                        <td>
+                            <button type="button" class="btn btn-primary" (click)="editbyid(user.userId)">Edit</button>
+                            <button type="button" class="btn btn-danger ml-2" (click)="deletedbyid(user.userId)">Delete</button>
+                        </td>   
+                               
+                       
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

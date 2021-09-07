@@ -1,0 +1,41 @@
+{
+    "i18n":{
+        "username": "User Name",
+        "firstname": "First Name",
+        "lastname": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "address": "Address",
+        "address2": "Address 2",
+        "city": "City",
+        "state": "State",
+        "zip": "ZIP",
+        "title": "Title",
+        "welcome_text": "This is welcome text in English",
+        "signin": "Sign In En",
+        "country": "Country",
+        "about": "About Me",
+        "updateprofile": "Update Profile",
+        "editprofile": "Edit Profile",
+        "company": "Company (disabled)",
+        "teammember": "Team Members",
+        "files": "Files",
+        "used": "Used",
+        "spent": "Spent",
+        "available": "Available",
+        "busy": "Busy",
+        "offline": "Offline",
+        "save": "Save",
+        "addempdtl": "Add Employee Details",
+        "roomno": "Room Number",
+        "roomtype": "Room Type",
+        "description": "Description",
+        "phone": "Phone Number",
+        "roomnumber": "Room Number",
+        "submit": "Submit",
+        "cancel": "Cancel"
+
+        
+
+    }    
+}

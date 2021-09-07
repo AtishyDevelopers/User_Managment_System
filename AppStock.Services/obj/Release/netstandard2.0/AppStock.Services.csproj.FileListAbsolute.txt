@@ -1,0 +1,14 @@
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.Services.deps.json
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.Services.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.Services.pdb
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.core.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.Persistence.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.core.pdb
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\bin\Release\netstandard2.0\AppStock.Persistence.pdb
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.csprojAssemblyReference.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.AssemblyInfoInputs.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.AssemblyInfo.cs
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.csproj.CoreCompileInputs.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.csproj.CopyComplete
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.Services\obj\Release\netstandard2.0\AppStock.Services.pdb

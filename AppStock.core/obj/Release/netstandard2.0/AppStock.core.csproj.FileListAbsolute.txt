@@ -1,0 +1,9 @@
+E:\Ati-AppStock\AppStockAPI\AppStock.core\bin\Release\netstandard2.0\AppStock.core.deps.json
+E:\Ati-AppStock\AppStockAPI\AppStock.core\bin\Release\netstandard2.0\AppStock.core.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.core\bin\Release\netstandard2.0\AppStock.core.pdb
+E:\Ati-AppStock\AppStockAPI\AppStock.core\obj\Release\netstandard2.0\AppStock.core.csprojAssemblyReference.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.core\obj\Release\netstandard2.0\AppStock.core.AssemblyInfoInputs.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.core\obj\Release\netstandard2.0\AppStock.core.AssemblyInfo.cs
+E:\Ati-AppStock\AppStockAPI\AppStock.core\obj\Release\netstandard2.0\AppStock.core.csproj.CoreCompileInputs.cache
+E:\Ati-AppStock\AppStockAPI\AppStock.core\obj\Release\netstandard2.0\AppStock.core.dll
+E:\Ati-AppStock\AppStockAPI\AppStock.core\obj\Release\netstandard2.0\AppStock.core.pdb
